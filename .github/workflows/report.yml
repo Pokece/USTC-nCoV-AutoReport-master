@@ -6,7 +6,7 @@ name: Auto-report action
 on: 
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '40 0,1,2,3 * * *'
 
